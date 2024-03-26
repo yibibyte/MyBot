@@ -38,3 +38,17 @@ build/
 .DS_Store!/MyBot.iml
 /.idea/
 !/.idea/checkstyle-idea.xml
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+.idea/checkstyle-idea.xml
+.idea/encodings.xml
+.idea/vcs.xml
+.idea/uiDesigner.xml
+.idea/misc.xml
