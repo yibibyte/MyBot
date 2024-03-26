@@ -53,3 +53,4 @@ build/
 .idea/uiDesigner.xml
 .idea/misc.xml
 /.idea/
+!/.idea/checkstyle-idea.xml
