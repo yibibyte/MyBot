@@ -37,3 +37,4 @@ build/
 ### Mac OS ###
 .DS_Store!/MyBot.iml
 /.idea/
+!/.idea/checkstyle-idea.xml
