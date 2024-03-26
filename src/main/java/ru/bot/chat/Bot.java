@@ -7,6 +7,8 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
 
+import java.util.List;
+
 public class Bot extends TelegramLongPollingBot {
     private final static String BOT_NAME = "";
     private final static String BOT_TOKEN = "";
@@ -23,6 +25,21 @@ public class Bot extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
+//        List<Update> updates = bot.getUpdates();
+//
+//        for (Update update : updates) {
+//            if (update.hasMessage()) {
+//                String text = update.getMessage().getText();
+//                long chatId = update.getMessage().getChatId();
+//
+//                // Обработка сообщения
+//            } else if (update.hasCallbackQuery()) {
+//                // Обработка callback-запроса
+//            } else if (update.hasInlineQuery()) {
+//                // Обработка inline-запроса
+//            }
+//        }
+
         if (update.hasMessage()) {
             String messageText = update.getMessage().getText();
             long chatId = update.getMessage().getChatId();
